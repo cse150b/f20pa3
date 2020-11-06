@@ -70,7 +70,7 @@ Once in-game, the following keyboard options are available:
 
 We provide three testers: `-t 1` for the first 3-step deterministic tests, `-t 2` for 1k-step non-divergence test, and `-t 3` for 1-million-step convergence test. 
 
-You can also give the options for MC-only (`-a 1`), TD-only (`-a 1`), Q-Learning-only (`-a 1`), and all together (`-a 0` and this is the default). Note that the 3-step deterministic tester (`-t 1`) is not provided for Q-learning. 
+You can also give the options for MC-only (`-a 1`), TD-only (`-a 2`), Q-Learning-only (`-a 3`), and all together (`-a 0` and this is the default). Note that the 3-step deterministic tester (`-t 1`) is not provided for Q-learning. 
 
 Examples:
 
