@@ -34,7 +34,7 @@ for rank in ranks:
 '''
     State representation: (user_sum, user_has_Ace, dealer_first)
         - user_sum: sum of user's cards' value, where A counts as 1. Possible values are 2 to 20
-        - user_has_Ace: whether user has at least one Ace. Possible values are 0 and 1
+        - user_A_active: whether the Ace in user's hand can be used as 11. Possible values are 0 and 1
         - dealer_first: the first card's value of dealer, where A counts as 1. Possible values are 1 to 10
         
         - Special states: 
